@@ -1,0 +1,14 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "GT America Regular";
+    src: url("../public/fonts/GT\ America\ Regular.otf");
+  }
+
+  @font-face {
+    font-family: "GT America Bold";
+    src: url("../public/fonts/GT\ America\ Bold.otf");
+  }
