@@ -10,7 +10,7 @@ const FooterCard = (props: Props) => {
 
     return (
 
-        <div className="flex flex-col gap-3 ">
+        <div className="flex flex-col gap-3 phone:mb-3 ">
             <p className="text-white text-[24px] font-gt-america-bold">{props.title}</p>
             <div>
                 {props.items.map((item) => (

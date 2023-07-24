@@ -11,7 +11,7 @@ type Props = {
 const DataCard = (props: Props) => {
 
     return (
-        <div className='flex flex-row  h-[280px] gap-7  w-[42vw]   tablet:h-max phone:w-[80vw] phone:h-max'>
+        <div className='flex flex-row  h-[280px] gap-7  w-[42vw]   tablet:h-max phone:w-[80vw] phone:h-max phone:mb-10 tablet:mb-6'>
             <div className='p-1 '>
                 {props.img}
             </div>

@@ -18,7 +18,7 @@ function App() {
     <>
       <Navbar />
       <SearchSection />
-      <div className='flex flex-row flex-wrap   items-center justify-center p-1 mt-[50px] gap-6 w-[100vw]'>
+      <div className='flex flex-row flex-wrap   items-start justify-center p-1 mt-[50px] gap-6 w-[100vw]'>
         <DataCard title={'Using Abstract'} describe={'Abstract lets you manage, version, and document your designs in one place.'} img={<Abstract />} />
         <DataCard title={'Manage your account'} describe={'Configure your account settings, such as your email, profile details, and password.'} img={<Account />} />
         <DataCard title={'Manage organizations, teams, and projects'} describe={'Use Abstract organizations, teams, and projects to organize your people and your work.'} img={<Team />} />
